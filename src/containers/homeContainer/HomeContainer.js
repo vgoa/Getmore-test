@@ -1,9 +1,13 @@
 import React from 'react'
 
+import styles from './HomeContainer.module.scss'
+
+import HeroSection from '../../components/Home/HeroSection/HeroSection'
+
 function HomeContainer() {
   return (
-    <main>
-      <h1>Este el container del Home</h1>
+    <main className={styles.HomeContainer}>
+      <HeroSection/>
     </main> 
   )
 }

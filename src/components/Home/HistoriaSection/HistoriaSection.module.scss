@@ -1,0 +1,121 @@
+$negro: rgba(0,0,0,1);
+$sickly-yellow:#cbe346;
+$grisTexto: #787878;
+$blancoFondo:#f3f4f8;
+.historiaSection{
+  box-sizing: border-box;
+  background: $blancoFondo;
+  padding: 20px;
+  min-height: 50vh;
+  display: grid;
+  grid-template-rows: repeat(3,1fr);
+  @media(min-width:768px){
+    padding:50px 0 0 0;
+    grid-template-columns: repeat(3,1fr);
+    min-height: 320px;
+    height: 320px;
+  }
+  @media(min-width:1500px){
+    min-height: 350px;
+    height: 350px
+  }
+  .historiaTitle{
+    text-transform: capitalize;
+    text-align: left;
+    font-size: 22px;
+    letter-spacing: -0.06px;
+    font-weight: 400;
+    position: relative;
+    @media(min-width: 768px){
+      grid-column: 2;
+      font-size: 50px;
+      margin: auto;
+    }
+    p{
+      margin: 0;
+    }
+  }
+  .historiaCategoria{
+    color:$sickly-yellow;
+    text-transform: uppercase;
+    font-size: 15px;
+    padding: 10px 0 0 0;
+    @media(min-width: 768px){
+      grid-column: 1;
+    }
+    @media(min-width: 1024px){
+      position: absolute;
+      top: 15px;
+      left: -100px;
+    }
+  }
+  .historiaLeyenda{
+    font-size: 20px;
+    color: $grisTexto;
+    line-height: 35px;
+    text-align: left;
+    align-self: center;
+    @media(min-width:768px){
+      grid-column: 2;
+      padding: 20px 0;
+      width: 85%;
+    }
+    @media(min-width: 1500px){
+      width: 75%;
+    }
+  }
+  .historiaButton{
+    width: 150px;
+    border-radius:25px;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $negro;
+    border: 1px solid;
+    padding: 12px 10px;
+    font-size: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    position: relative;
+    align-self: flex-end;
+    justify-self: flex-end;
+    margin-bottom: 10px;
+    @media(min-width:768px){
+      padding: 15px 15px;
+      font-size: 13px;
+      grid-column: 2;
+      align-self: flex-end;
+      justify-self: flex-start;
+      margin-bottom: 0;
+    }
+    @media(min-width:1024px){
+      grid-column: 3;
+    }
+    span{
+      transform: translateX(-50%);
+      @media(min-width: 768px){
+        transform: translateX(-15px);
+      }
+    }
+    &:after{
+      content: "⟶";
+      display: block;
+      font-size: 15px;
+      color: $negro;
+      position: absolute;
+      right: 30px;
+      @media only screen and (hover: none) and (pointer: coarse){
+        margin-top: -6px;
+      }
+      @media screen and (min--moz-device-pixel-ratio:0) {
+        margin-top: -6px;
+      }
+      @media(min-width: 500px){
+        right: 25px;
+      }
+    }
+  }
+
+}

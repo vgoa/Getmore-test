@@ -16,8 +16,9 @@ $blancoFondo:#f3f4f8;
     height: 320px;
   }
   @media(min-width:1500px){
+    padding:80px 0 0 0;
     min-height: 350px;
-    height: 350px
+    height: 450px
   }
   .historiaTitle{
     text-transform: capitalize;

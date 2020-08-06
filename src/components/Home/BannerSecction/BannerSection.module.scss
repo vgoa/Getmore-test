@@ -1,6 +1,7 @@
+$sickly-yellow:#cbe346;
+
 .BannerSection{
-  position: relative;
-  box-sizing: border-box;
+  background: $sickly-yellow;
   .bannerContainer{
     width: 100%;
     height: 100%;

@@ -1,0 +1,29 @@
+$sickly-yellow:#cbe346;
+.Footer{
+  background: $sickly-yellow;
+  padding: 20px; 
+  min-height: 200px;
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
+  .Ball{
+    text-align: center;
+    position: absolute;
+    width: 110px;
+    height: 100px;
+    bottom: 0;
+    right: -20px;
+    @media(min-width:768px){
+      right: 0;
+    }
+    .Fill{
+      object-fit: contain;
+      width: 30px;
+      height: 100%;
+      @media(min-width: 768px){
+        width: 40px;
+        margin: auto;
+      }
+    }
+  }
+}

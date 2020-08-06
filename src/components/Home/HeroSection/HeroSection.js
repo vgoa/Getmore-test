@@ -12,9 +12,14 @@ function HeroSection() {
         <nav>Este sera el nav</nav>
       </div>
       <div className={styles.heroContent}>
-        <h1>
+        <h1 className={styles.heroTitle}>
           Las mejores raquetas para jugar <span>Tennis</span>
         </h1>
+        <div className={styles.heroButton}>
+        <span>
+          acerca de nosotros
+        </span>
+      </div>
       </div>
     </section>
   )

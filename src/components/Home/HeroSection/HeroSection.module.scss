@@ -1,3 +1,7 @@
+//COLORES
+$blanco: rgba(255,255,255,1);
+$sickly-yellow:#cbe346;
+
 .HeroSection{
   padding: 20px;
   min-height: calc(100vh - 40px);
@@ -11,6 +15,10 @@
     grid-template-columns: 110px 1fr;
     background-position: center center;
     padding:0;
+    column-gap: 75px;
+  }
+  @media(min-width:1500px){
+    column-gap: 100px;
   }
   @media
     only screen and ( min-device-pixel-ratio: 1.25),
@@ -18,22 +26,85 @@
     only screen and ( min-resolution: 1.25dppx){
       background: url('../../../assets/img/Home/group@2x.png') no-repeat 55%/cover;
     }
-  .heroContent{
 
+  .heroContent{
     grid-column: 1/3;
     display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    @media(min-width: 768px){
+    justify-content: center;
+    align-items: flex-start;
+    flex-flow: column;
+    @media(min-width: 650px){
       grid-column: 2;
     }
   }
+  .heroTitle{
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.28;
+    letter-spacing: -0.05px;
+    color: $blanco;
+    font-size: 35px;
+    max-width: 500px;
+    margin: 20px 0;
+    @media(min-width: 768px){
+      font-size: 45px;
+    }
+    @media(min-width: 1024px){
+      max-width: 600px;
+    }
+    @media(min-width: 1500px){
+      max-width: 750px;
+      font-size: 53px;
+    }
+    span{
+      font-weight: bold;
+      color: $sickly-yellow;
+    }
+  }
+  .heroButton{
+    width: 200px;
+    border-radius:25px;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $blanco;
+    border: 1px solid;
+    padding: 12px 10px;
+    font-size: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    position: relative;
+    @media(min-width:768px){
+      padding: 15px 15px;
+      font-size: 13px;
+    }
+    span{
+      transform: translateX(-12px);
+      @media(min-width: 768px){
+        transform: translateX(-15px);
+      }
+    }
+    &:after{
+      content: "⟶";
+      display: block;
+      font-size: 15px;
+      color: $blanco;
+      position: absolute;
+      right: 35px;
+      @media only screen and (hover: none) and (pointer: coarse){
+        margin-top: -6px;
+      }
+      @media screen and (min--moz-device-pixel-ratio:0) {
+        margin-top: -6px;
+      }
+      @media(min-width: 500px){
+        right: 15px;
+      }
+    }
+  }
 }
-.h1{
-  font-size: 53px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.28;
-  letter-spacing: -0.05px;
-}
+
+

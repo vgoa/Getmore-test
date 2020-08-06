@@ -1,13 +1,13 @@
 import React from 'react'
 
+import Sidebar from '../Sidebar/Sidebar'
+
 import styles from './HeroSection.module.scss'
 
 function HeroSection() {
   return (
     <section className={styles.HeroSection}>
-      <div>
-        <p>Este es el sidebar</p>
-      </div>
+      <Sidebar/>
       <div>
         <nav>Este sera el nav</nav>
       </div>

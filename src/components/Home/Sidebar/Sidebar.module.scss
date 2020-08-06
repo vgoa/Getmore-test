@@ -1,0 +1,29 @@
+$blanco: rgba(255,255,255,1);
+
+.Ball{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  position: relative;
+  @media(min-width: 768px){
+    &:before{
+      content:" ";
+      height: calc(100vh + 40px);
+      width: 2px;
+      background: $blanco;
+      position: absolute;
+      top: -20px;
+      right: 0;
+      display: block;
+    }
+  }
+}
+.Fill{
+  object-fit: contain;
+  width: 50%;
+  height: 100%;
+  @media(min-width: 768px){
+    width: 40px;
+    margin: auto;
+  }
+}

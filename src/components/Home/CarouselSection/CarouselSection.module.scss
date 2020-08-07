@@ -1,0 +1,8 @@
+.CarouselSection{
+  position: relative;
+  box-sizing: border-box;
+  @media(min-width: 768px){
+    display: flex;
+    width: 100%;
+  }
+}

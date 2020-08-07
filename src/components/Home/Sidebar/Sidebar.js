@@ -5,7 +5,7 @@ import styles from './Sidebar.module.scss'
 import fill from '../../../assets/img/Home/fill-2.png'
 import fill2 from '../../../assets/img/Home/fill-2@2x.png'
 
-function Sidebar() {
+function Sidebar(props) {
   return (
     <>
       <div className={styles.Ball}>

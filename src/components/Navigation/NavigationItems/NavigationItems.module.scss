@@ -1,0 +1,27 @@
+$blanco: rgba(255,255,255,1);
+$sickly-yellow:#cbe346;
+.hidden{
+  transform: translateX(-100%);
+  opacity: 0;
+  visibility: hidden;
+}
+.visible{
+  transform: translateX(0);
+  opacity: 1;
+  visibility: visible;
+}
+.NavigationItems{
+  list-style: none;
+  margin: auto;
+  padding: 0;
+  @media(min-width: 768px){
+    grid-column: 1;
+  }
+  li{
+    margin: 10px 5px;
+    text-align: center;
+    letter-spacing: 1.5px;
+    font-size: 15px;
+    color: $blanco;
+  }
+}

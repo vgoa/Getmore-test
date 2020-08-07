@@ -11,7 +11,7 @@ function BannerSection() {
     <section className={styles.BannerSection}>
       <div className={styles.bannerContainer}>
         <img src={banner1}
-          srcset={banner2,banner3}     
+          srcSet={banner2,banner3}     
           className={styles.actionA}></img>
       </div>
     </section>

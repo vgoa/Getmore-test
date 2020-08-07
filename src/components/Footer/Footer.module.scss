@@ -6,6 +6,11 @@ $sickly-yellow:#cbe346;
   box-sizing: border-box;
   position: relative;
   overflow: hidden;
+  @media(min-width:768px){
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
   .Ball{
     text-align: center;
     position: absolute;
@@ -27,6 +32,17 @@ $sickly-yellow:#cbe346;
     }
   }
   ul{
-    transform: translateX(0);
+    @media(min-width:768px){
+      transform: translateX(100px);
+    }
+    li{
+      color: black;
+      @media(min-width: 768px){
+        margin: 0 15px;
+      }
+      @media(min-width: 1200px){
+        margin: 0 20px;
+      }
+    }
   }
 }

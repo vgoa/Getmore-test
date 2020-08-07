@@ -12,11 +12,6 @@ function Footer() {
     <footer className={styles.Footer}>
       <div className="footer-nav">
        <NavigationItems/>
-        <div>
-          <span>
-            y las redes
-          </span>
-        </div>
       </div>
       <div className={styles.Ball}>
         <img src={fill}

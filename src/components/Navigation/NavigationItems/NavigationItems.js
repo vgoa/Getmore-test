@@ -7,7 +7,7 @@ function NavigationItems(props) {
   return (
     <nav>
       <ul className={styles.NavigationItems}>
-        <li>inicio</li>
+        <li>Inicio</li>
         <li>Acerca de nosotros</li>
         <li>Historia</li>
         <li>Contacto</li>

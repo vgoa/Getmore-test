@@ -6,7 +6,7 @@ $sickly-yellow:#cbe346;
   position: relative;
   text-align: left;
   padding: 20px;
-  height: 350px;
+  min-height: 350px;
   background: url("../../../../assets/img/Home/ball-color-court-1405355.png")no-repeat center/cover;    ;
   @media(min-width: 768px){
     height: 450px;
@@ -48,18 +48,23 @@ $sickly-yellow:#cbe346;
 }
 .rec-pagination{
   position: absolute;
-  top: 240px;
-  left: 116px;
+  top: 280px;
+  left: 90px;
   margin: 0 !important;
-  @media(min-width: 414px){
+  @media(min-width: 400px){
+    top: 240px;
     left: 140px;
   }
   @media(min-width: 500px){
-    left: 153px;
+    left: 163px;
     margin-left: auto;
   }
   @media(min-width: 550px){
     left: 30%;
+  }
+  @media(min-width: 768px){
+    left:12%;
+    top:285px; 
   }
 }
 .CarouselButtons{

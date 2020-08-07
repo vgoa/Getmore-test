@@ -70,19 +70,26 @@ $sickly-yellow:#cbe346;
     justify-content: center;
     align-items: center;
     color: $blanco;
+    font-size: 8px;
     border: 1px solid;
     padding: 12px 10px;
-    font-size: 10px;
     text-transform: uppercase;
     font-weight: bold;
     letter-spacing: 1px;
     position: relative;
+    @media(min-width:400px){
+      font-size: 10px;
+    }
     @media(min-width:768px){
+      width: 250px;
       padding: 15px 15px;
       font-size: 13px;
     }
     span{
-      transform: translateX(-12px);
+      transform: translateX(-22px);
+      @media(min-width: 400px){
+        transform: translateX(-15px);
+      }
       @media(min-width: 768px){
         transform: translateX(-15px);
       }
@@ -93,16 +100,26 @@ $sickly-yellow:#cbe346;
       font-size: 15px;
       color: $blanco;
       position: absolute;
-      right: 35px;
+      right: 45px;
+      @media(min-width:400px){
+        right: 40px;
+      }
+      @media(min-width: 450px){
+        right: 35px;
+      }
+      @media(min-width: 500px){
+        right: 25px;
+      }
+      @media(min-width: 768px){
+        right: 40px;
+      }
       @media only screen and (hover: none) and (pointer: coarse){
         margin-top: -6px;
       }
       @media screen and (min--moz-device-pixel-ratio:0) {
         margin-top: -6px;
       }
-      @media(min-width: 500px){
-        right: 15px;
-      }
+      
     }
   }
 }

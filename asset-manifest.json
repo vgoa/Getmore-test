@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/getmore-test/static/css/main.5c317d12.chunk.css",
+    "main.js": "/getmore-test/static/js/main.c78190bf.chunk.js",
+    "main.js.map": "/getmore-test/static/js/main.c78190bf.chunk.js.map",
+    "runtime-main.js": "/getmore-test/static/js/runtime-main.8f1e74de.js",
+    "runtime-main.js.map": "/getmore-test/static/js/runtime-main.8f1e74de.js.map",
+    "static/js/2.f17ebd08.chunk.js": "/getmore-test/static/js/2.f17ebd08.chunk.js",
+    "static/js/2.f17ebd08.chunk.js.map": "/getmore-test/static/js/2.f17ebd08.chunk.js.map",
+    "index.html": "/getmore-test/index.html",
+    "precache-manifest.194c4c773e8f2901e8ff1b4f38efed0c.js": "/getmore-test/precache-manifest.194c4c773e8f2901e8ff1b4f38efed0c.js",
+    "service-worker.js": "/getmore-test/service-worker.js",
+    "static/css/main.5c317d12.chunk.css.map": "/getmore-test/static/css/main.5c317d12.chunk.css.map",
+    "static/js/2.f17ebd08.chunk.js.LICENSE.txt": "/getmore-test/static/js/2.f17ebd08.chunk.js.LICENSE.txt",
+    "static/media/action-athlete-ball-342361.jpg": "/getmore-test/static/media/action-athlete-ball-342361.96272d73.jpg",
+    "static/media/action-athlete-ball-342361@2x.jpg": "/getmore-test/static/media/action-athlete-ball-342361@2x.f53fa486.jpg",
+    "static/media/action-athlete-ball-342361@3x.jpg": "/getmore-test/static/media/action-athlete-ball-342361@3x.c30a1c1b.jpg",
+    "static/media/CarouselText.scss": "/getmore-test/static/media/ball-color-court-1405355@2x.c2b78d80.png",
+    "static/media/group-11.png": "/getmore-test/static/media/group-11.7ae43714.png",
+    "static/media/group-11@2x.png": "/getmore-test/static/media/group-11@2x.2df2f11c.png",
+    "static/media/group-11@3x.png": "/getmore-test/static/media/group-11@3x.7dcde5d2.png",
+    "static/media/HeroSection.module.scss": "/getmore-test/static/media/group@2x.b16b6f4a.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8f1e74de.js",
+    "static/js/2.f17ebd08.chunk.js",
+    "static/css/main.5c317d12.chunk.css",
+    "static/js/main.c78190bf.chunk.js"
+  ]
+}
